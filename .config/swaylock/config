@@ -1,0 +1,26 @@
+bs-hl-color=ff000033
+clock
+datestr=
+effect-blur=7x5
+effect-vignette=0.5:0.5
+font=Fira Code
+font-size=70
+image=/home/nissya/.config/hypr/Background.png
+indicator
+indicator-radius=294
+indicator-thickness=91
+indicator-x-position=979
+indicator-y-position=566
+inside-clear-color=00000000
+inside-color=00000000
+inside-ver-color=00000000
+inside-wrong-color=00000000
+key-hl-color=00ff0033
+line-uses-inside
+ring-clear-color=ffa50033
+ring-color=00000000
+ring-ver-color=0000ff33
+ring-wrong-color=ff000033
+separator-color=00000000
+text-caps-lock-color=000000
+text-color=000000

@@ -1,0 +1,14 @@
+{
+	"theme": "Adaptive.sublime-theme",
+	"ignored_packages": [
+		"LSP-bash",
+		"Vintage",
+	],
+	"index_files": false,
+	"font_size": 17,
+	"added_words": [
+		"fzf",
+		"toml",
+	],
+	"color_scheme": "Packages/Dracula Color Scheme/Dracula.tmTheme",
+}

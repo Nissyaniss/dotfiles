@@ -1,0 +1,31 @@
+// Settings in here override those in "LSP-rust-analyzer/LSP-rust-analyzer.sublime-settings"
+
+{
+	"settings": {
+		"rust-analyzer": {
+			"checkOnSave" : true,
+			"check" : {
+				"command": "clippy",
+				"extraArgs": [
+          			"--",
+          			"-W",
+          			"clippy::pedantic",
+          			"-W",
+          			"clippy::cargo",
+          			"-W",
+          			"clippy::nursery",
+          			"-W",
+          			"clippy::alloc_instead_of_core",
+          			"-W",
+          			"missing_debug_implementations",
+          			"-W",
+          			"clippy::expect_used",
+          			"-A",
+          			"clippy::cast_lossless",
+          			"-A",
+          			"clippy::redundant_else"
+        		]
+			}
+		}
+	}
+}

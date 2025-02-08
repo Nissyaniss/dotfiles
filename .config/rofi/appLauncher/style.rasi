@@ -1,0 +1,49 @@
+configuration {
+	show-icons: true;
+	me-select-entry: "";
+	me-accept-entry: "MousePrimary";
+}
+
+* {
+	text-color: white;
+	background-color: transparent;
+}
+
+window {
+	border-radius: 20px;
+	padding: 10px;
+
+	font: "Fira Code 15";
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+inputbar {
+	margin: 5px;
+	spacing: 5px;
+}
+
+listview {
+	cycle: false;
+	scrollbar: true;
+}
+
+scrollbar {
+	handle-width: 3px;
+	handle-color: gray;
+}
+
+element {
+	margin: 2px 5px;
+	border-radius: 8px;
+	padding: 5px;
+	spacing: 10px;
+}
+
+element selected.normal {
+	text-color: black;
+	background-color: #5f6f90;
+}
+
+element-icon {
+	size: 24px;
+}
