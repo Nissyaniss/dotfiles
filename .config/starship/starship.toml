@@ -54,6 +54,7 @@ disabled = false
 
 [os.symbols]
 Arch = ""
+Windows = "\uf17a"
 
 [custom.git_branch_whithout_status]
 
