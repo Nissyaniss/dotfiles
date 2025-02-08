@@ -5,8 +5,9 @@ local wezterm = require 'wezterm'
 local config = wezterm.config_builder()
 
 config.window_background_opacity = 0.5 -- 0.7 for windows
--- config.default_prog = { 'C:\\Users\\test\\scoop\\shims\\nu.exe' }
+-- config.default_prog = { 'C:\\Users\\test\\scoop\\shims\\nu.exe' } for windows
 config.font = wezterm.font('Fira Code Nerd Font', { weight = 'Regular' })
+-- config.font_size = 15 for windows
 
 local act = wezterm.action
 config.keys = {
