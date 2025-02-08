@@ -4,7 +4,7 @@ let isAtHome = pwd | str contains $env.HOME
 try {
 	git rev-parse
 } catch {
-	if $env.LAST_EXIT_CODE != 0 and $isAtHome == false {
+	if $isAtHome == false {
 		exit 0
 	} 
 }
