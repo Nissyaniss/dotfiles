@@ -4,7 +4,7 @@ local wezterm = require 'wezterm'
 -- This will hold the configuration.
 local config = wezterm.config_builder()
 
-config.window_background_opacity = 0.5
+config.window_background_opacity = 0.5 -- 0.7 for windows
 config.font = wezterm.font('Fira Code Nerd Font', { weight = 'Regular' })
 
 local act = wezterm.action
