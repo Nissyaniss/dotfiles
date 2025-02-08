@@ -7,6 +7,7 @@ $env.STARSHIP_CONFIG = "/home/nissya/.config/starship/starship.toml"
 # $env.STARSHIP_CONFIG = "C:\\Users\\test\\.config\\starship\\starship.toml" #path for windows
 # $env.config.shell_integration.osc133 = false # windows only
 path add "/home/nissya/.local/bin" # not needed for windows
+# $env.HOME = "C:\\Users\\test" # windows only
 
 $env.CARAPACE_BRIDGES = 'zsh,fish,bash,inshellisense'
 mkdir ~/.cache/carapace
