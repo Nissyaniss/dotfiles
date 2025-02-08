@@ -76,7 +76,7 @@ format = "[ ](fg:#6C6C6C bg:#444444)[ ~/](bg:#444444 fg:#0997D5)[$output ]
 
 [custom.root_without_git]
 command = "nu ~/.config/starship/getDirectoryRelativeToRoot.nu"
-when = """nu ~/.config/starship/isntGitAndIsntHome.nu"""
+when = "nu ~/.config/starship/isntGitAndIsntHome.nu"
 # command = "nu C:\\Users\\test\\.config\\starship\\getDirectoryRelativeToRoot.nu" for windows
 # when = "nu C:\\Users\\test\\.config\\starship\\isntGitAndIsntHome.nu"
 format = "[ ](fg:#6C6C6C bg:#444444)[\uf023 ](bg:#444444 fg:#0997D5)[$output ](bg:#444444 fg:#0997D5)[](fg:#444444)"
