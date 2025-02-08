@@ -56,7 +56,7 @@ disabled = false
 
 [os.symbols]
 Arch = ""
-Windows = "\uf17a"
+Windows = ""
 
 [custom.git_branch_whithout_status]
 
@@ -84,11 +84,11 @@ command = "nu ~/.config/starship/getDirectoryRelativeToRoot.nu"
 when = "nu ~/.config/starship/isntGitAndIsntHome.nu"
 # command = "nu C:\\Users\\test\\.config\\starship\\getDirectoryRelativeToRoot.nu" # for windows
 # when = "nu C:\\Users\\test\\.config\\starship\\isntGitAndIsntHome.nu"
-format = "[ ](fg:#6C6C6C bg:#444444)[\uf023 ](bg:#444444 fg:#0997D5)[$output ](bg:#444444 fg:#0997D5)[](fg:#444444)"
+format = "[ ](fg:#6C6C6C bg:#444444)[ ](bg:#444444 fg:#0997D5)[$output ](bg:#444444 fg:#0997D5)[](fg:#444444)"
 
 [custom.root_with_git]
 command = "nu ~/.config/starship/getDirectoryRelativeToRoot.nu"
 when = "nu ~/.config/starship/isGitAndIsRoot.nu"
 # command = "nu C:\\Users\\test\\.config\\starship\\getDirectoryRelativeToRoot.nu"
 # when = "nu C:\\Users\\test\\.config\\starship\\isGitAndIsRoot.nu"
-format = "[ ](fg:#6C6C6C bg:#444444)[\uf023 ](bg:#444444 fg:#0997D5)[$output ](bg:#444444 fg:#0997D5)"
+format = "[ ](fg:#6C6C6C bg:#444444)[ ](bg:#444444 fg:#0997D5)[$output ](bg:#444444 fg:#0997D5)"
