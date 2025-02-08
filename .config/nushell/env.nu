@@ -5,7 +5,7 @@ $env.config.show_banner = false
 $env.TRANSIENT_PROMPT_COMMAND = "❯ "
 $env.STARSHIP_CONFIG = "/home/nissya/.config/starship/starship.toml"
 # $env.config.shell_integration.osc133 = false # windows only
-path add "/home/nissya/.local/bin"
+path add "/home/nissya/.local/bin" # not needed for windows
 
 $env.CARAPACE_BRIDGES = 'zsh,fish,bash,inshellisense'
 mkdir ~/.cache/carapace
