@@ -7,8 +7,6 @@ try {
 } catch {
 	if $env.LAST_EXIT_CODE != 0 and $isAtHome == false {
 		exit 0
-	} else {
-		exit 1
 	}
 }
 
