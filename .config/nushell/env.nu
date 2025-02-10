@@ -12,4 +12,5 @@ path add "/home/nissya/.local/bin" # not needed for windows
 $env.CARAPACE_BRIDGES = 'zsh,fish,bash,inshellisense'
 mkdir ~/.cache/carapace
 carapace _carapace nushell | save --force ~/.cache/carapace/init.nu
-zoxide init nushell | save -f ~/.zoxide.nu
+# IF ZOXIDE BREAK UNCOMMENT THIS
+# zoxide init nushell | save -f ~/.zoxide.nu # to have the cd alias
