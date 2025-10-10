@@ -1,0 +1,26 @@
+// List all your connections to DBs here
+{
+	"connections": {
+		"IUT": { // Connection name, used in menu (Display name)
+			// connection properties set to "null" will prompt for value when connecting
+			"type": "mssql", // DB type: (mysql, pgsql, oracle, vertica, sqlite, firebird, sqsh)
+			"host": "164.81.120.19", // DB host to connect to
+			"port": 1433, // DB port
+			"database": "G5B_LASBORDES_Yaniss", // DB name (for SQLite this is the path to DB file)
+			"username": "BUT2", // DB username
+			"password": "IUT", // DB password (see RDMBS specific comments below)
+			"encoding": "utf-8" // DB encoding. Default: utf-8
+		},
+		"lacosina": { // Connection name, used in menu (Display name)
+			// connection properties set to "null" will prompt for value when connecting
+			"type": "mysql", // DB type: (mysql, pgsql, oracle, vertica, sqlite, firebird, sqsh)
+			"host": "127.0.0.1", // DB host to connect to
+			"port": 3306, // DB port
+			"database": "lacosina", // DB name (for SQLite this is the path to DB file)
+			"username": "root", // DB username
+			"password": "", // DB password (see RDMBS specific comments below)
+			"encoding": "utf-8" // DB encoding. Default: utf-8
+		},
+	},
+	"default": null
+}

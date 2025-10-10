@@ -1,0 +1,14 @@
+{
+	"font_face": "FiraCode Nerd Font Mono",
+	"ignored_packages": [
+		"Vintage",
+	],
+	"index_files": false,
+	"font_size": 17,
+	"added_words": [
+		"fzf",
+		"toml",
+	],
+	"theme": "Default Dark.sublime-theme",
+	"color_scheme": "Dracula Neue Classic.sublime-color-scheme",
+}

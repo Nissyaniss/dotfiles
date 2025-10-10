@@ -1,0 +1,32 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"BracketHighlighter",
+		"Color Scheme - Dracula Neue",
+		"Dracula Color Scheme",
+		"LSP",
+		"LSP-bash",
+		"LSP-clangd",
+		"LSP-css",
+		"LSP-html",
+		"LSP-intelephense",
+		"LSP-jdtls",
+		"LSP-json",
+		"LSP-lua",
+		"LSP-pylsp",
+		"LSP-ruff",
+		"LSP-rust-analyzer",
+		"LSP-typescript",
+		"LSP-yaml",
+		"Nushell",
+		"Package Control",
+		"SQLTools",
+		"Terminal",
+		"TOML",
+	],
+}

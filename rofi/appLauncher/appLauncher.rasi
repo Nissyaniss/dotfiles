@@ -1,0 +1,11 @@
+@import "style.rasi"
+
+configuration {
+	modi: "drun";
+	width: 1;
+	show-icons: true;
+	icon-theme: "papirus";
+	lines: 1;
+	fake-transparency: true;
+	drun-display-format: "{name} [<span weight='light' size='small'><i>({exec})</i></span>]";
+}

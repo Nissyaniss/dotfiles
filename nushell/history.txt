@@ -1,0 +1,515 @@
+sudo pacman -S carapace
+sudo pacman -Syyu carapace
+sudo pacman -Syyu zoxide
+zoxide
+sudo pacman -Syyu fzf
+sudo pacman -S fzf
+cd
+which ced
+which cd
+zoxide init nushell | save -f ~/.zoxide.nu
+which cd
+nu
+sudo pacman -S starship
+clear
+eww open statusbar
+clear
+wezterm
+debug wezterm
+cd .config
+ls
+cd wezterm/
+ls
+cat wezterm.lua
+nvim wezterm.lua
+wezterm
+clear
+python
+cd .config/eww/
+ls
+sudo pacman -S sublime-text sublime-mergwe
+sudo pacman -S sublime-text sublime-merge
+sudo pacman -S sublime-text
+subl .
+echo $env.LANG
+basdh
+bash
+locale --all-locales
+locale-gen
+sudo locale-gen
+subl .
+sudo nvim /etc/locale.conf
+subl .
+LANG=en_US.UTF-8 LC_CTYPE=en_US.UTF-8 sublime_text
+LANG=en_US.UTF-8 LC_CTYPE=en_US.UTF-8 subl .
+sudo pacman -S python-psutil
+sudo pacman -S waybar-update
+eww open statusbar
+cat eww.yuck
+sudo pacman -S waybar-updates
+sudo pacman -R firefox
+V
+fc-list ':' file
+sudo pacman -S vieb
+sudo pacman -S vieb-bin
+cd 
+cd Downloads/
+pacman 
+sudo pacman -h 
+sudo pacman -f -h 
+sudo pacman -F -h 
+sudo pacman -F vieb-12.5.0.pacman
+sudo pacman  vieb-12.5.0.pacman
+sudo pacman -S vieb-12.5.0.pacman
+sudo pacman -U vieb-12.5.0.pacman
+sudo pacman -S http-parser
+sudo pacman -S ttf-segoe-ui-variable
+sudo pacman -S ttf-liberation
+sudo pacman -S legcord
+clear
+cd
+clear
+cleare
+clear
+sudo pacman -S steam
+ssh-keygen
+cat .ssh/
+ls .ssh/
+cat .ssh/id_ed25519.pub
+git clone git@github.com:Mosifra/Mosifra.git --recursive
+cd Mosifra/Mosifra-API/
+subl .
+sudo pacman -S node
+sudo pacman -S nodejs
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+clear
+cargo
+clea
+clear
+sudo pacman -R nodejs
+fc-list ':' file
+cd Mosifra/Mosifra-API/
+subl .
+cd Mosifra/Mosifra-API/
+subl .
+sudo pacman -S nwg-look
+fc-list ':' file
+fc-list ':' file | grep libreation
+fc-list ':' file | grep liberation
+subl .
+SUBLIME_FONT="LiberationSans-Regular" subl .
+SUBLIME_FONT="LiberationSans" subl .
+SUBLIME_FONT="LiberationSans-regular" subl .
+nmtui
+clear
+cd .config/eww/
+subl .
+sudo pacman -S --needed base-devel<\n>git clone https://aur.archlinux.org/paru.git
+cd paru
+makepkg -si
+cd ../hypr
+cd ../../hypr/
+ls
+subl .
+hyprctl layers
+paru
+paru -S waybar-updates
+paru -S nmtui
+eww open statusbar
+paru -S nmapplet
+paru -S nm-applet
+paru -S network-manager-applet
+nm-applet
+rm -rf paru
+cd ..
+rm -rf paru
+cd ../hypr/
+ls
+subl .
+paru -R swaylock
+paru -S swaylock-effects
+paru -S hyprpaper
+hyprpaper
+=00
+clear
+cd
+cd Mosifra/
+ls
+cd Mosifra-API/
+subl .
+git pull
+git pull origin master
+ls -l
+cd
+cargo test-csv
+cargo new test-csv
+cd test-csv/
+subl .
+cargo add csv
+subl .
+cargo run
+cd ../Mosifra/
+cd Mosifra-API/
+subl .
+cargo add csv
+paru -S yaak
+yaak
+yaak-app 
+cargo run
+paru -R yaak
+paru -R yaak-bin
+paru -S postman-bin
+cd ../
+paru -S docker
+sudo groupadd docker
+sudo usermod -aG docker $USER<\n>
+sudo usermod -aG docker nissya
+sudo docker compose up
+docker
+docker compose
+paru -S docker-compose
+paru -S carapace
+config nu
+clear
+sudo docker compose up
+sudo systemctl enable docker
+sudo systemctl start docker
+sudo docker compose up
+sudo docker compose up -d
+sudo docker compose down -v
+sudo docker compose up
+sudo docker compose up -d
+sudo docker compose down -v
+sudo docker compose up
+sudo docker compose up -d
+sudo docker compose down -v
+sudo docker compose up
+sudo docker compose up -d
+sudo docker compose down -v
+sudo docker compose up
+sudo docker compose up -d
+sudo docker compose down -v
+sudo docker compose up
+yay -R kitty
+paru -R kitty
+clear
+steam
+killall steam
+steam
+clear
+paru -Syyu
+clear
+cd Downloads/
+subl .
+paru -S vieb
+paru -S vieb-bin
+paru -S wlogout
+clear
+cd .config/hypr/
+subl .
+zen
+sudo nvim /etc/mkininitcpio.conf
+paru -S mkinitcpio-numlock
+sudo nvim /etc/mkinitcpio.conf
+sudo mkinitcpio -P
+paru -Syyu
+reboot
+paru -S greetd
+paru -S tui-greet
+paru -S tui-greetd
+paru -S tuigreetd
+paru -S tuigreet
+paru -S greetd-tuigreet
+sudo nvim /etc/greetd/config.toml 
+sudo systemctl enable greetd
+cd Downloads/
+ls
+cat docker-compose.yml
+clear
+paru -S grimblast
+paru -S wlcpy
+paru -S wl-copy
+paru -S wl-clipboard
+paru -Syyu
+clear
+ssh nissya@vps-349e7f2a.vps.ovh.net
+lspci
+lspci | grep nvidia
+lspci | grep NVIDIA
+clear
+lspci | grep NVIDIA
+paru -S nvidia-dkms 
+paru -S linux-zen-headers
+dkms status
+paru -S pipewire
+paru -S wireplumber
+paru -S pwvucontrol
+pipewire
+clear
+compose
+composer
+paru -S php composer
+composer
+mkdir cours
+cd cours
+mkcd a3
+mkcd php
+mkcd tp1
+php -v
+paru -S php-curl
+paru -S php-intl
+paru -S php-mhstring
+paru -S php-mbstring
+paru -S php-openssl
+paru -S php-pdo-mysql
+paru -S php-xml
+paru -S symphony
+paru -S symfony
+paru -S symfony-cli
+symphony
+symfony
+ddd
+d
+dkms status
+symfony
+cklear
+clear
+symfony 
+symfony local:new
+symfony local:new .
+php -v
+ls
+paru -S iconv
+iconv
+iconv -hb
+iconv -h
+sudo nvim /usr/share/php-composer/php.ini
+ls  /usr/share/php-composer
+ls  /usr/share/
+ls  /usr/share/php
+paru -S php-iconv
+ls /etc
+ls /etc/php
+ls /etc/php/conf.d/
+sudo nvim /etc/php/conf.d/extension.ini
+symfony local:new .
+git config --global user.email "nissya.proton.me"
+git config --global user.name "Nissya"
+git config --global user.name "Nissyaniss"
+symfony local:new .
+rm  -rf *
+symfony local:new .
+ls -a
+rm -rf .git .gitignore .env .env.dev .editorconfig
+symfony local:new .
+ls
+symfony 
+symfony local:server:start
+composer require --dev symfony/profiler-pack
+ls config/packages/
+subl 
+subl .
+symfony local:server:start
+composer require twig
+symfony local:server:start
+composer require maker –dev
+bin/console make:controller NameController
+symfony composer require maker –dev
+composer require maker –dev
+composer require maker 
+composer require maker --dev
+bin/console make:controller NameController
+bin/console make:controller DefaultController
+composer require maker --dev
+symfony composer require maker –dev
+symfony composer require maker –dev\
+symfony local:server:start
+symfony composer require web-profiler-bundle –dev
+symfony composer require web-profiler-bundle -–dev
+composer require web-profiler-bundle --dev
+symfony local:server:start
+php bin/console cache:clear --env=dev
+php bin/console debug:config
+symfony local:server:start
+composer require symfony/apache -pack
+composer require symfony/apache --pack
+composer require symfony/apache-pack
+symfony local:server:start
+php bin/console cache:clear --env=dev
+php bin/console cache:clear 
+symfony local:server:start
+paru -S chrome
+paru -S brave-bin
+symfony local:server:start]
+symfony local:server:start
+symfony --version
+symfony 
+composer 
+composer list
+zip
+paru -S nautilus
+paru -S nautilus-bin
+paru -S nautilus
+nautilus
+symfony local:server:start
+paru -Syyu
+paru -R brave-bin
+paru -Scc
+clear
+ssh nissya@vps-349e7f2a.vps.ovh.net
+cd cours/
+cd a3/
+mkcd qualiter
+mkcd tp3
+git clone git@gitlab.com:info3-r5a.08/passbookmanager.git .
+cat ~/.ssh/
+carapace
+ls ~/.ssh/
+cat ~/.ssh/id_ed25519.pub
+git clone git@gitlab.com:info3-r5a.08/passbookmanager.git .
+subl .
+composer install
+composer update
+composer install
+phpunit
+paru -Syyu  phpunit
+phpunit
+phpunit -h
+phpunit .
+./vendor/bin/phpunit --version
+./vendor/bin/phpunit 
+./vendor/bin/phpunit .
+./vendor/bin/phpunit
+phpunit 
+phpunit ./test/part1/TransactionTest.php
+ls ./test/part1/TransactionTest.php
+ls ./test/part1/
+phpunit ./tests/part1/TransactionTest.php
+composer install
+composer run
+phpunit ./tests/part1/TransactionTest.php
+phpunit 
+ls
+phpunit 
+phpunit part1
+phpunit 
+phpunit -h
+phpunit --testsuite part1
+phpunit --testsuite part2
+phpunit --testsuite part1
+phpunit --testsuite part2
+phpunit --testsuite part3
+cd ..
+git clone git@gitlab.com:qualiter/fighting-game.git tp4
+cd tp4
+subl .
+ls
+php app.php
+composer install
+php app.php
+composer 
+composer install phpunit
+composer phpunit
+composer install phpunit
+composer require phpunit
+composer install
+phpunit
+phpunit 
+phpunit tests/PlayerTest.php
+composer install
+phpunit tests/PlayerTest.php
+composer update
+phpunit tests/PlayerTest.php
+sudo phpunit tests/PlayerTest.php
+phpunit 
+ls ../tp3/
+ls ../tp3/src
+ls ../tp3/
+cat ../tp3/phpunit.xml
+phpunit --testsuite tests
+cat ../tp3/tests/PassbookTest.php
+cat ../tp3/tests/part2/PassbookTest.php
+phpunit --testsuite tests
+php app.php
+phpunit --testsuite tests
+php app.php
+git add .
+git commit -m "added 2 tests for the Plater class + added health bar"
+git push
+php app.php
+phpunit --testsuite tests
+composer install
+phpunit --testsuite tests
+git add .
+git commit -m "added dice mock and tests on makeAttack and dodgedAttack"
+git push
+phpunit --testsuite tests
+git add .
+git commit -m "added tests for the game class"
+git push
+phpunit --testsuite tests
+php app.php
+phpunit --testsuite tests
+php app.php
+git add .
+git commit -m "refactor of the healthbar + fix problem with healthbar + tests for new HealthBar class"
+git push
+php app.php
+phpunit --testsuite tests
+git add .
+git commit -m "DiceInterface added for clarity"
+git push
+composer require --dev carthage-software/mago:^1.0.0-beta.27
+cargo install mago
+curl --proto '=https' --tlsv1.2 -sSf https://carthage.software/mago.sh | bash
+mago
+ls
+rm mago
+paru -S mago
+paru -S php-mago-bin
+mago
+mago init
+mago lint
+composer require --dev carthage-software/mago:^1.0.0-beta.27
+mago lint
+clear
+mago lint
+git add .
+git status
+git commit -m "added linter and linted"
+git push
+php app.php
+phpunit --testsuite tests
+mago lint
+nautilus
+nautilus .
+php app.php
+composer install
+php app.php
+nautilus .
+paru -Syyu
+clear
+cd .
+cd .config/
+ls
+ls -a
+steam
+git add .
+git status
+git add eww
+git status
+git add ./eww/
+git status
+git add hypr
+git status
+git add nushell
+git add rofi
+git add starship
+git add sublime-text
+git status
+git restore --staged sublime-text
+git status
+git add sublime-text/Packages/User
+git add swaylock
+git add wezterm
+git add wlogout
