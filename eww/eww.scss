@@ -51,10 +51,14 @@
 }
 
 .workspace {
+	margin: 0px;
+	padding: 0px;
 	padding-right: 6px;
 }
 
 .workspace-active {
+	margin: 0px;
+	padding: 0px;
 	font-size: 35px;
 }
 
@@ -133,7 +137,9 @@
 .left-ending-arrow,
 .right-ending-arrow {
 	color: #1a1a1a;
-	font-size: 30px;
+	font-size: 35px;
+	margin-top: -1px;
+	margin-bottom: -1px;
 }
 
 .left-starting-arrow,
